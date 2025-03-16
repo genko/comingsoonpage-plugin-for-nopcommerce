@@ -105,7 +105,7 @@ namespace Nop.Plugin.Misc.ComingSoonPage.Controllers
         }
 
         [AuthorizeAdmin]
-        [Area(AreaNames.Admin)]
+        [Area(AreaNames.ADMIN)]
         public async Task<IActionResult> Configure()
         {
             //load settings for a chosen store scope
@@ -132,7 +132,7 @@ namespace Nop.Plugin.Misc.ComingSoonPage.Controllers
 
         [HttpPost]
         [AuthorizeAdmin]
-        [Area(AreaNames.Admin)]
+        [Area(AreaNames.ADMIN)]
         public async Task<IActionResult> Configure(ConfigurationModel model)
         {
             //load settings for a chosen store scope

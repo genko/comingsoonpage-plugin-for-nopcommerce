@@ -3,7 +3,7 @@
     "FriendlyName": "Coming Soon Page",
     "SystemName": "Misc.ComingSoonPage",
     "Version": "4.4",
-    "SupportedVersions": [ "4.40" ],
+    "SupportedVersions": [ "4.80" ],
     "Author": "Balázs Nagy",
     "DisplayOrder": 1,
     "FileName": "Nop.Plugin.Misc.ComingSoonPage.dll",

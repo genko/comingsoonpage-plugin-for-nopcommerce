@@ -72,7 +72,7 @@ namespace Nop.Plugin.Misc.ComingSoonPage
             await _settingService.SaveSettingAsync(settings);
 
             //locales
-            await _localizationService.AddLocaleResourceAsync(new Dictionary<string, string>
+            await _localizationService.AddOrUpdateLocaleResourceAsync(new Dictionary<string, string>
             {
                 ["Plugins.Misc.ComingSoonPage.PageTitle"] = "Coming soon!",
                 ["Plugins.Misc.ComingSoonPage.ComingSoon"] = "Our new webshop is coming soon!",
